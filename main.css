@@ -1,0 +1,24 @@
+.container{
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.center-objects{
+  margin: 10% 0;
+}
+
+.navbar {
+  text-align: right;
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 10px;
+}
