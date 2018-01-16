@@ -5,7 +5,7 @@
 }
 
 .center-objects{
-  margin: 10% 0;
+  margin: 20% 0;
 }
 
 .navbar {
@@ -20,5 +20,31 @@
 
 .navbar ul li {
   display: inline;
-  margin: 10px;
+  margin: 8px;
+}
+
+.google-logo{
+  margin: 10px 0;
+}
+
+.search-bar{
+  margin: 10px 0;
+  height: 44px;
+  width: 600px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.center-buttons{
+  margin: 10px 0;
+}
+
+.center-buttons input{
+  font-weight: bold;
+  color: #757575;
+  border: rgb(117, 117, 117);
+  background: solid 1px #f2f2f2;
+  min-width: 64px;
+  height: 36px;
+  padding: 0 16px;
 }
