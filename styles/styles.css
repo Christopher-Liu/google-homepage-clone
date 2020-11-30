@@ -1,7 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* 
+
+        Nav Bar
+
+*/
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-nav {
+    list-style-type: none;
+    padding: 0 0;
+}
+
+.left-nav li{
+    display: inline-block;
+}
+
+.right-nav {
+    list-style-type: none;
+    padding: 0 0;
+}
+
+.right-nav li{
+    display: inline-block;
+}
+
+
+/* 
+
+        Center Elements
+
+*/
+
+.center-elements {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+/* 
+
+        Footer
+
+*/
+
 footer {
     background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.left-footer {
+    list-style-type: none;
+    padding: 0 0;
+}
+
+.left-footer li{
+    display: inline-block;
+}
+
+.right-footer {
+    list-style-type: none;
+    padding: 0 0;
+}
+
+.right-footer li{
+    display: inline-block;
 }
