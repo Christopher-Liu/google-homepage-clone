@@ -24,6 +24,8 @@ nav {
 }
 
 .left-nav a{
+    text-decoration: inherit;
+    color: inherit;
     margin: 0 0 0 8px;
 }
 
@@ -32,7 +34,13 @@ nav {
 }
 
 .right-nav a {
+    text-decoration: inherit;
+    color: inherit;
     margin: 0 8px 0 0;
+}
+
+.left-nav a:hover, .right-nav a:hover{
+    text-decoration: underline;
 }
 
 
@@ -110,6 +118,8 @@ footer {
 }
 
 .left-footer a{
+    text-decoration: inherit;
+    color: inherit;
     margin: 0 14px 0 0;
 }
 
@@ -118,5 +128,11 @@ footer {
 }
 
 .right-footer a{
+    text-decoration: inherit;
+    color: inherit;
     margin: 0 0 0 14px
+}
+
+.left-footer a:hover, .right-footer a:hover{
+    text-decoration: underline;
 }
