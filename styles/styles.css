@@ -42,6 +42,14 @@ nav {
 .left-nav a:hover, .right-nav a:hover{
     text-decoration: underline;
 }
+.sign-in-button {
+    background-color: #4285f4;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    padding: 7px 12px;
+}
 
 
 /* 
