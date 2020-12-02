@@ -39,6 +39,11 @@ nav {
     margin: 0 8px 0 0;
 }
 
+.right-nav a img {
+    width: 22px;
+    vertical-align: middle;
+}
+
 .left-nav a:hover, .right-nav a:hover{
     text-decoration: underline;
 }
