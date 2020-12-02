@@ -10,28 +10,29 @@ body {
 */
 
 nav {
+    color: #525252;
+    font-size: 13px;
     position: relative;
+    padding: 12px 12px;
     display: flex;
     justify-content: space-between;
 }
 
 
 .left-nav {
-    list-style-type: none;
     padding: 0 0;
 }
 
-.left-nav li{
-    display: inline-block;
+.left-nav a{
+    margin: 0 0 0 8px;
 }
 
 .right-nav {
-    list-style-type: none;
     padding: 0 0;
 }
 
-.right-nav li{
-    display: inline-block;
+.right-nav a {
+    margin: 0 8px 0 0;
 }
 
 
@@ -41,30 +42,47 @@ nav {
 
 */
 
+.center-block{
+}
+
 .center-elements {
-    position: relative;
+    display: block;
     margin: 0 auto;
 }
 
-.search-bar{
+.center-block img{
+    padding: 110px 0 0 0;
+}
+
+.search-elements {
+    display: block;
+    margin: 40px auto;
+}
+
+.center-elements .search-bar{
     border: none;
     border-radius: 50px;
     padding: 10px 25px;
-    margin: 10px;
     height: 20px;
-    width: 500px;
+    width: 430px;
     border:1px solid #eaeaea;
     outline:none;
 }
 
-.center-elements button {
+.search-buttons {
+    text-align: center;
+}
+
+.search-elements button {
     border-radius: 8px;
     background: #f8f9fa;
     border: 1px solid #f8f9fa;
+    color: #525252;
     cursor: default;
     font-size: 14px;
+    margin: 0 5px;
     padding: 0 16px;
-    height:36px;
+    height: 36px;
 }
 
 
@@ -76,6 +94,9 @@ nav {
 
 footer {
     background-color: #f2f2f2;
+    border-top: 1px solid #d2d2d2;
+    color: #727272;
+    font-size: 14px;
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -85,19 +106,17 @@ footer {
 }
 
 .left-footer {
-    list-style-type: none;
-    padding: 0 0;
+    padding: 12px 25px;
 }
 
-.left-footer li{
-    display: inline-block;
+.left-footer a{
+    margin: 0 14px 0 0;
 }
 
 .right-footer {
-    list-style-type: none;
-    padding: 0 0;
+    padding: 12px 25px;
 }
 
-.right-footer li{
-    display: inline-block;
+.right-footer a{
+    margin: 0 0 0 14px
 }
